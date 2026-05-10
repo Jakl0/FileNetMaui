@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zad2filenetmaui.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Editor x:Name="wpisEditor"/>
+            <Button Clicked="OnAppend" Text="Dodaj wpis"/>
+            <ScrollView>
+                <Label x:Name="DisplayLabel"/>
+            </ScrollView>
+            <Button Clicked="OnClear" Text="Wyczyść dziennik"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
