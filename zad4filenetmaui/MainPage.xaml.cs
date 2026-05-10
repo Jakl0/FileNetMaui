@@ -14,16 +14,13 @@ namespace zad4filenetmaui
 
         public async void OnExport(object sender,EventArgs e)
         {
-            string tekst = expEditor.Text;
+            string tekst = expEditor.Text ?? "";
             string data = (System.DateTime.Today).ToString();
-            List<string> notatki = tekst
-                .Split(new[] { "\r\n", "\n" }, StringSplitOptions.None)
-                .ToList();
+            
             await File.WriteAllTextAsync(path,data);
-            foreach(string notatka in notatki)
-            {
-                await File.AppendAllTextAsync(path,notatka);
-            }
+
+            await File.AppendAllTextAsync(path,tekst);
+            
 
             await File.WriteAllTextAsync(lastActPath, (System.DateTime.Today).ToString());
         }

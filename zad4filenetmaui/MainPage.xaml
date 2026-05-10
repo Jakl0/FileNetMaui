@@ -9,8 +9,8 @@
             Spacing="25">
             <Editor HeightRequest="150"  x:Name="expEditor"/>
 
-            <Button x:Name="expButton" Clicked="OnExport"/>
-            <Button x:Name="impButton" Clicked="OnImport"/>
+            <Button x:Name="expButton" Clicked="OnExport" Text="Eksportuj"/>
+            <Button x:Name="impButton" Clicked="OnImport" Text="Importuj"/>
 
         </VerticalStackLayout>
     </ScrollView>
