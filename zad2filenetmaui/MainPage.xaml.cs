@@ -28,3 +28,24 @@
        
     }
 }
+/*
+ **********************************************************************
+ nazwa          OnAppend
+opis            funkcja dodaje tekst z kontrolki Entry do pliku dziennik.txt
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+nazwa          OnClear
+opis            funkcja usuwa plik dziennik.txt jeśli istnieje
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+ */

@@ -80,3 +80,42 @@ namespace zad3filenetmaui
         }
     }
 }
+/*
+ **********************************************************************
+ nazwa          NapiszPliki
+opis            funkcja pisze początkowe pliki i wrzuca do nich krótki tekst
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+nazwa          odswiezPliki
+opis            funkcja odświeża całą Listę plików po każdej operacji
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+ nazwa          OnPlikSelected
+opis            funkcja pobiera treść klikniętego pliku po czym wyświetla go w alercie
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji , umożliwia pobranie tylko poszczególnego elementu
+
+zwracany typ    brak
+
+***********************************************************************
+nazwa          OnUsunClick
+opis            funkcja usuwa poszczególny plik obok którego znajdywał się kliknięty przycisk
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+ */

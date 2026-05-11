@@ -29,3 +29,24 @@ namespace zad1filenetmaui
         
     }
 }
+/*
+ **********************************************************************
+ nazwa          OnSaveClick
+opis            funkcja zapisuje tekst z kontrolki Entry do pliku moj_plik.txt
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+nazwa          OnReadClick
+opis            funkcja wczytująca zawartość pliku wyświetlająca ją w konsoli
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+ */

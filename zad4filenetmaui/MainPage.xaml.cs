@@ -64,4 +64,24 @@ namespace zad4filenetmaui
 
     }
 }
-//
+/*
+ **********************************************************************
+ nazwa          OnExport
+opis            funkcja zapisuje tekst z notatkami do pliku notatki_eksport.txt w AppDataDirectory
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+nazwa          OnImport
+opis            funkcja wyświetlająca FilePicker umożliwiający użytkownikowi wybór pliku
+
+parametry       object sender, EventArgs e
+opis            sender: obiekt wywołujący funkcję , e : Szczegóły dotyczące wywołania funkcji
+
+zwracany typ    brak
+
+***********************************************************************
+ */
