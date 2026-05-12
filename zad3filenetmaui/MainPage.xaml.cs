@@ -4,17 +4,22 @@ namespace zad3filenetmaui
 {
     public partial class MainPage : ContentPage
     {
-        List<Plik> pliki = new List<Plik>();
+        string katalog;
+
+        string[] sciezki;
+        List<Plik> pliki;
         public MainPage()
         {
             InitializeComponent();
-            
-            
-            NapiszPliki();
-            odswiezPliki();
-            
 
+            pliki = new List<Plik>();
+            NapiszPliki();
             
+            Lista.ItemsSource = pliki;
+            Lista.ItemsSource = pliki;
+            Lista.ItemsSource = pliki;
+
+
         }
         
         public async void NapiszPliki()
@@ -24,14 +29,17 @@ namespace zad3filenetmaui
                 string path = Path.Combine(FileSystem.Current.AppDataDirectory, $"Tekst{i}.txt");
                 string tresc = $"Treść Pliku {i}";
                 await File.WriteAllTextAsync(path, tresc);
+                odswiezPliki();
+
             }
             
         }
         public void odswiezPliki()
         {
-            string katalog = FileSystem.Current.AppDataDirectory;
+            katalog = FileSystem.Current.AppDataDirectory;
             
-            string []sciezki = Directory.GetFiles(katalog);
+            
+            sciezki = Directory.GetFiles(katalog);
             pliki = new List<Plik>();
             foreach (string sciezka in sciezki)
             {
